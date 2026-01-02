@@ -11,3 +11,23 @@ RSVP Movies wants to expand from primarily Indian releases to a global audience,
 - which contributors (actors/directors) are associated with strong outcomes
 
 - what trends from past releases can guide the strategy for a successful global launch
+
+🗂️ Dataset Overview
+
+The analysis is performed on a relational movie database consisting of 6 interconnected tables, covering movie details, ratings, genres, and people involved (cast/crew):
+
+- movie: Core movie metadata — title, year, release date, duration, country, languages, production company, worldwide gross income.
+
+- ratings: Movie performance signals — average rating, median rating, total votes (linked via movie_id).
+
+- genre: Genre tags for each movie (many-to-one / many-to-many style mapping via movie_id).
+
+- names: Master table of people — name, height, date of birth, known-for movies.
+
+- director_mapping: Links movies to directors using movie_id ↔ name_id.
+
+- role_mapping: Links movies to cast/crew roles using movie_id ↔ name_id along with a category (e.g., actor/actress/supporting, etc.).
+
+director_mapping: Links movies to directors using movie_id ↔ name_id.
+
+role_mapping: Links movies to cast/crew roles using movie_id ↔ name_id along with a category (e.g., actor/actress/supporting, etc.).
