@@ -28,4 +28,12 @@ The analysis is performed on a relational movie database consisting of 6 interco
 
 - role_mapping: Links movies to cast/crew roles using movie_id ↔ name_id along with a category (e.g., actor/actress/supporting, etc.).
 
+✅ Key Insights & Findings
 
+- Identified the genres and content patterns that consistently align with higher audience ratings and engagement.
+
+- Evaluated production houses to highlight those with a strong track record of delivering well-rated and widely voted movies.
+
+- Analyzed the impact of directors and lead cast to determine contributors most associated with successful outcomes.
+
+- Compared performance across regions/languages to understand what works best for different audiences and support a global-release strategy.
