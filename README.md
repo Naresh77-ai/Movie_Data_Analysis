@@ -28,6 +28,4 @@ The analysis is performed on a relational movie database consisting of 6 interco
 
 - role_mapping: Links movies to cast/crew roles using movie_id ↔ name_id along with a category (e.g., actor/actress/supporting, etc.).
 
-director_mapping: Links movies to directors using movie_id ↔ name_id.
 
-role_mapping: Links movies to cast/crew roles using movie_id ↔ name_id along with a category (e.g., actor/actress/supporting, etc.).
